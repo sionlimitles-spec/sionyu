@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brutal-bg: #f4f4f0; /* Putih tulang / off-white */
+  --color-brutal-black: #111111;
+  --color-brutal-purple: #8b5cf6;
+}
+
+body {
+  background-color: var(--color-brutal-bg);
+  color: var(--color-brutal-black);
+  font-family: system-ui, -apple-system, sans-serif;
+}
